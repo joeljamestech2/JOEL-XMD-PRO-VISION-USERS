@@ -6,26 +6,8 @@ const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 
-// Generate 100 fake users
-const users = [];
-for (let i = 1; i <= 100; i++) {
-    users.push({
-        username: `user${i}`,
-        wa_number: `+25570000${i.toString().padStart(3, '0')}`,
-        session_id: `session-${i}`
-    });
-}
-
-// Root Endpoint: Send formatted JSON
-app.get('/', (req, res) => {
-    const data = {
-        title: 'joel xmd users sessions',
-        bot_name: 'xmd bot',
-        creator: 'joeljamestech',
-        channel_link: 'https://whatsapp.com/channel/0029Vak2PevK0IBh2pKJPp2K',
-        channel_jid: '120363317462952356@newsletter',
-        total_users:'
-        [
+// codes by old coder lord joel
+const users =       [
     {
         "username": "user1",
         "wa_number": "+255700000001",
@@ -526,7 +508,18 @@ app.get('/', (req, res) => {
         "wa_number": "+255700000100",
         "session_id": "session-100"
     }
-]'};
+];
+
+// Root Endpoint: Send formatted JSON
+app.get('/', (req, res) => {
+    const data = {
+        title: 'joel xmd users sessions',
+        bot_name: 'xmd bot',
+        creator: 'joeljamestech',
+        channel_link: 'https://whatsapp.com/channel/0029Vak2PevK0IBh2pKJPp2K',
+        channel_jid: '120363317462952356@newsletter',
+        total_users: users
+    };
 
     res.setHeader('Content-Type', 'application/json');
     res.send(JSON.stringify(data, null, 4));

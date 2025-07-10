@@ -19,9 +19,9 @@ const users =       [
         "session_id": "JOEL-XMD~8MoGiCRL#6TUKqM2Q1Edokax4V00tDe30zAeafA8MaYAZ6X_tf8E"
     },
     {
-        "username": "user3",
-        "wa_number": "+255700000003",
-        "session_id": "session-3"
+        "username": "alone",
+        "wa_number": "+92 318 9969873",
+        "session_id": "JOEL-XMD~ZEhjgSCK#mg1Lx0MMygMJkLKCQLcmpt54mOpGR_GtR50Tza8xvFk"
     },
     {
         "username": "user4",

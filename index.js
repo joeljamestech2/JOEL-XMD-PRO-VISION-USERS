@@ -24,9 +24,9 @@ const users =       [
         "session_id": "JOEL-XMD~ZEhjgSCK#mg1Lx0MMygMJkLKCQLcmpt54mOpGR_GtR50Tza8xvFk"
     },
     {
-        "username": "user4",
-        "wa_number": "+255700000004",
-        "session_id": "session-4"
+        "username": "lover boi",
+        "wa_number":  "+255695508791",
+        "session_id": "JOEL-XMD~cAhFzTiC#mIhYe9TNtMI-kUlt8ORcnlqelocgzOLmtUUz1a-k8GI"
     },
     {
         "username": "user5",

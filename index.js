@@ -9,14 +9,14 @@ app.use(express.json());
 // codes by old coder lord joel
 const users =       [
     {
-        "username": "user1",
-        "wa_number": "+255700000001",
-        "session_id": "session-1"
+        "username": "joelXtec",
+        "wa_number": "+255781144539",
+        "session_id": "JOEL-XMD~MMQRwS5a#PLWK-13MpOk4HDuY3Aa2TaJ2dnMB4iZb4VzapwKrhq4"
     },
     {
-        "username": "user2",
-        "wa_number": "+255700000002",
-        "session_id": "session-2"
+        "username": "mr front",
+        "wa_number": "+923156864074",
+        "session_id": "JOEL-XMD~8MoGiCRL#6TUKqM2Q1Edokax4V00tDe30zAeafA8MaYAZ6X_tf8E"
     },
     {
         "username": "user3",

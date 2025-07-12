@@ -11,7 +11,7 @@ const users =       [
     {
         "username": "joelXtec",
         "wa_number": "+255781144539",
-        "session_id": "JOEL-XMD~MMQRwS5a#PLWK-13MpOk4HDuY3Aa2TaJ2dnMB4iZb4VzapwKrhq4"
+        "session_id": ""
     },
     {
         "username": "mr front",
